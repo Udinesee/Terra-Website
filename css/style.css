@@ -262,6 +262,40 @@ body {
 }
 /* Panel End */
 
+/* Visi Misi */
+.visimisi {
+  /* padding-top: 140px; */
+  margin-top: 140px;
+}
+.visimisi .container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.visimisi .item {
+  display: flex;
+  align-items: center;
+}
+
+.item .visimisi-text {
+  margin-left: 30px;
+}
+
+.visimisi-text .title {
+  font-family: var(--heading-font);
+  font-weight: 600;
+  font-size: 25px;
+  color: #000;
+}
+
+.visimisi-text .subtitle {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000;
+}
+
 /* Service Start */
 .service {
   padding-top: 140px;
